@@ -1,0 +1,27 @@
+{
+  "name": "ibeacon-playground",
+  "version": "1.0.0",
+  "description": "Just hacking with iBeacon",
+  "main": "scanner.js",
+  "dependencies": {
+    "bleacon": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadonk/ibeacon-playground.git"
+  },
+  "keywords": [
+    "ibeacon",
+    "bluetooth"
+  ],
+  "author": "Jason Kridner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jadonk/ibeacon-playground/issues"
+  },
+  "homepage": "https://github.com/jadonk/ibeacon-playground#readme"
+}
