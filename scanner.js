@@ -18,6 +18,7 @@ Bleacon.on('discover', function(bleacon) {
 function updateDisplay() {
     process.stdout.write('\033c');
     for(var i in ibeacons) {
-        process.stdout.write(ibeacons[i].uuid + ": " + ibeacons[i].rssi + "\n");
+        process.stdout.write(ibeacons[i].uuid + ": " + ibeacons[i].rssi + "," + 
+            ibeacons[i].major +  "," + ibeacons[i].minor + "\n");
     }
 }
